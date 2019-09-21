@@ -1,0 +1,60 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+android:keyBackground="@drawable/ic_launcher_foreground"
+    >
+    <Row>
+        <Key android:codes="5001" android:keyLabel="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="5002" android:keyLabel="2"/>
+        <Key android:codes="5003" android:keyLabel="3"/>
+        <Key android:codes="5004" android:keyLabel="4"/>
+        <Key android:codes="5005" android:keyLabel="5"/>
+        <Key android:codes="5006" android:keyLabel="6"/>
+        <Key android:codes="5007" android:keyLabel="7"/>
+        <Key android:codes="5008" android:keyLabel="8"/>
+        <Key android:codes="5009" android:keyLabel="9"/>
+        <Key android:codes="5000" android:keyLabel="0" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="6017" android:keyLabel="q" android:keyEdgeFlags="left"/>
+        <Key android:codes="6023" android:keyLabel="w"/>
+        <Key android:codes="6005" android:keyLabel="e"/>
+        <Key android:codes="6018" android:keyLabel="r"/>
+        <Key android:codes="6020" android:keyLabel="t"/>
+        <Key android:codes="6025" android:keyLabel="y"/>
+        <Key android:codes="6021" android:keyLabel="u"/>
+        <Key android:codes="6009" android:keyLabel="i"/>
+        <Key android:codes="6015" android:keyLabel="o"/>
+        <Key android:codes="6016" android:keyLabel="p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="6001" android:keyLabel="a" android:keyWidth="13.3%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="6019" android:keyLabel="s" android:keyWidth="13.3%p"/>
+        <Key android:codes="6004" android:keyLabel="d" android:keyWidth="13.3%p"/>
+        <Key android:codes="6006" android:keyLabel="f" android:keyWidth="13.3%p"/>
+        <Key android:codes="6007" android:keyLabel="g" android:keyWidth="13.3%p"/>
+        <Key android:codes="6008" android:keyLabel="h" android:keyWidth="13.3%p"/>
+        <Key android:codes="6010" android:keyLabel="j" android:keyWidth="13.3%p"/>
+        <Key android:codes="6011" android:keyLabel="k" android:keyWidth="13.3%p"/>
+        <Key android:codes="6012" android:keyLabel="l"  android:keyWidth="13.3%p" android:keyEdgeFlags="right"/>
+
+    </Row>
+    <Row>
+
+        <Key android:codes="6026" android:keyLabel="z" android:keyWidth="17%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="6024" android:keyLabel="x"  android:keyWidth="17%p" />
+        <Key android:codes="6003" android:keyLabel="c"  android:keyWidth="17%p" />
+        <Key android:codes="6022" android:keyLabel="v" android:keyWidth="17%p" />
+        <Key android:codes="6002" android:keyLabel="b"  android:keyWidth="17%p" />
+        <Key android:codes="6014" android:keyLabel="n"  android:keyWidth="17%p" />
+        <Key android:codes="6013" android:keyLabel="m"  android:keyWidth="17%p" android:keyEdgeFlags="right"/>
+
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-5" android:keyLabel="DELETE" android:keyWidth="50%p" android:isRepeatable="true"/>
+        <Key android:codes="7000" android:keyLabel="SPACE" android:keyWidth="50%p" android:isRepeatable="true"/>
+
+    </Row>
+</Keyboard>
